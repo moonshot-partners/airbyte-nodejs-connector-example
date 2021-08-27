@@ -22,3 +22,10 @@ https://docs.airbyte.io/understanding-airbyte/airbyte-specification#spec
     ├── get-input-file-path.js
     └── read-json.js
 ```
+
+
+# How to integrate this connector
+
+1) push docker image to a container registry
+2) if it's your first time initializing Airbyte, skip the onboarding process
+3) go to setting -> sources -> new connector
